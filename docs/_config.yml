@@ -661,3 +661,5 @@ definitions:
       nombre:
         type: string
     title: Tecnico
+
+theme: jekyll-theme-hacker
