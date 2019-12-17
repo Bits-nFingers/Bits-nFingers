@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   description: SOFTWARE DE ALMACENES
-  version: 1.0.0
+  version: "1.0.0"
   title: EMAVIAS
   termsOfService: PAY TO USE
   contact:
@@ -11,6 +11,8 @@ info:
   license:
     name: API license
     url: 'http://api.com'
+# host: 'localhost:9000'
+# basePath: /
 tags:
   - name: inventario-controller
     description: Operaciones pertenecientes al Inventario
@@ -658,8 +660,9 @@ definitions:
       nombre:
         type: string
     title: Tecnico
+# Added by API Auto Mocking Plugin
 host: virtserver.swaggerhub.com
 basePath: /Bits-nFingers/emavias2/1.0.0
 schemes:
-  - https
-  - http
+ - https
+ - http
