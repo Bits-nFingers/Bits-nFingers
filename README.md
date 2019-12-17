@@ -1,2 +1,2 @@
 # Bits-nFingers
-Primer poycto
+Primer poyecto
